@@ -1,0 +1,61 @@
+body {
+    margin-top: 30px;
+}
+
+.cardcontainer {
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2%;
+    display: grid;
+    margin-left: 2%;
+}
+
+.stays {
+    display:flex;
+    top: 80px;
+    margin-left: 2%;
+    position: relative;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.stays12 {
+    display:flex;
+    top: 80px;
+    margin-left: 75%;
+    position: relative;
+    
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    
+
+}
+
+
+
+#search {
+    margin-left: 2%;
+    
+}
+
+#searchnav {
+    margin-left: 2%;
+    
+    
+}
+
+#finland {
+    display: flex;
+}

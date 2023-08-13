@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+  }
+
+body {
+    background-clip: peru;
+}
+.container-card {
+    display:grid;
+    width: 395px;
+    height: 360px;
+    border-radius: 24px;
+    cursor: pointer;
+    
+
+}
+
+.imagen1 {
+    border-radius: 24px;
+}
+
+.cuadro1-dw {
+    display:grid;
+   
+}
+
+#beds {
+    color:  #828282;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500px;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    
+    height: 17px;
+    top: 499px;
+    left: 205px;
+
+
+
+}
+
+.superhost {
+       
+    font-family:Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.63px;
+    letter-spacing: 0em;
+    
+}
+
+.cuadro11-dw {
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    
+}
+
+.styles {
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+margin-left: -20%;
+}
+
+.star {
+    display: flex;
+    gap: 10px;
+}
+
+
+.superhost-main {
+     height: 30px;
+    border:solid 1px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+
+#imagen {
+    width: 50px;
+    height: 60px;
+}

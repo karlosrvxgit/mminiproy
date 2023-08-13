@@ -1,0 +1,59 @@
+.containernav .navmain {
+    display:grid;
+    text-align:right;
+    justify-content:right;
+    height: 55px;
+    top: 32px;
+    border-radius: 16px;
+    border: 1px;
+    margin-left: 2%;
+    
+    
+}
+
+
+.submit1 {
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+    justify-content: center;
+    text-align: center;
+    top: -5px;
+    width: 50px;
+    
+}
+
+.input {
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    border: 2px solid #F2F2F2;
+    opacity: 0.3;
+
+}
+
+.form {
+    display: flex;
+    text-align:right;
+    justify-content:right;
+    border-radius: 10px;
+    width: 297px;
+    border: 2px solid #F2F2F2;
+    margin-right: 30px;
+}
+
+#hels {
+    
+    /* display: flex;
+    justify-content: center;
+    text-align: center; */
+    margin-top: 15px;
+}
+
+.form #city {
+        text-align:left;
+}
+
+.searchb {
+    cursor: pointer;
+}
