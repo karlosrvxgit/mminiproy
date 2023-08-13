@@ -7,7 +7,7 @@ import logo from "./img/logo.png";
 import Navbar from "./Navbar";
 import "./Navbar.css"
 
-function App() {
+export default function App() {
   const [data, setData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
   const [cityFilter, setCityFilter] = useState("");
@@ -15,6 +15,8 @@ function App() {
   const getData = async () => {
     try {
       const res = await fetch("stays.json");
+      // const res = await fetch("http://localhost:3000/path/to/stays.json");
+
       const resJson = await res.json();
       setData(resJson);
       setFilteredData(resJson);
@@ -65,4 +67,4 @@ function App() {
   );
 }
 
-export default App;
+
